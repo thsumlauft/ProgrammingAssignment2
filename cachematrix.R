@@ -39,9 +39,7 @@ cachesolve <- function(x, ...) {
         m <- x$getinv()
         ## gets the inversed matrix from x
         if(!is.null(m)) {
-                
                 message("getting cached data")
-                
                 return(m)
                 ## if m is calculated, the message "getting cached data" is being displayed and m returned
         }
